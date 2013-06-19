@@ -1,9 +1,1 @@
-This is a demonstration of some of the Vaadin+Spring integration classes
-included in the dellroad-stuff Java library.
-
-URLs:
-
-    https://vaadin.com/directory#addon/spring-stuff
-    http://dellroad-stuff.googlecode.com/
-    http://dellroad-stuff.googlecode.com/svn/trunk/publish/reports/javadoc/index.html?org/dellroad/stuff/vaadin/package-summary.html
-
+The e2curriculum application is a sample JEE 6 by using jsf, spring and hibernate.
