@@ -12,6 +12,7 @@ public class UserDaoImpl extends GenericHibernateDaoImpl<User, Long> implements 
 
 	@Override
 	public User findByUserName(String userName) {
+		// TODO change this by named query
 		TypedQuery<User> qry = getEntityManager().createQuery("select u from User u where u.userName = :userName", User.class);
 		qry.setParameter("userName", userName);
 		return qry.getSingleResult();
